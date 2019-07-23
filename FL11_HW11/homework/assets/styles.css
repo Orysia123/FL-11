@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    color: #3FB4FE;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 70%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin: 200px auto;
+}
+
+#header {
+    text-align: center;
+    margin-top: -100px;
+    padding-bottom: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    color: #E4F2FE;
+    margin: 10px 0;
+}
+
+.add-text {
+    padding: 10px;
+    width: 95%;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    color: #C8D0D8;
+    width: 4%;
+    margin-top: 5px;
+}
+
+.material-icons {
+    font-size: 36px;
+}
+
+
+/* .action-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+} */
+
+.action-text {
+    width: 90%;
+}
+
+.list-wrapper {
+    height: 300px;
+    width: 90%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.cat-task {
+    margin-top: 10px;
+    width: 98%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text-task {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-self: flex-start;
+    padding-left: 10px;
+}
+
+.added-items {
+    margin-top: 30px;
+}
+
+.notification {
+    color: red;
+    font-weight: 600;
+}
